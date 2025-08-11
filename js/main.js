@@ -1,1 +1,1 @@
-"use strict";!function(){var t="theme",e=document.body,a=document.querySelector(".theme-toggle");try{"dark"===localStorage.getItem(t)&&e.classList.add("dark")}catch(t){}a&&a.addEventListener("click",function(){e.classList.toggle("dark");try{localStorage.setItem(t,e.classList.contains("dark")?"dark":"light")}catch(t){}})}();
+"use strict";
