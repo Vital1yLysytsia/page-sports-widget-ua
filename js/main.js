@@ -1,1 +1,1 @@
-"use strict";
+"use strict";document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll('a.sportsWidget__func-button[href^="#"]');t&&0!==t.length&&t.forEach(function(t){t.addEventListener("click",function(e){var n=t.getAttribute("href");if(n&&"#"===n.charAt(0)){n=n.slice(1),n=document.getElementById(n);if(n){e.preventDefault();try{n.scrollIntoView({behavior:"smooth",block:"start"})}catch(t){e=n.getBoundingClientRect().top+window.pageYOffset;window.scrollTo(0,e)}}}})})});
